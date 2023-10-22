@@ -1,0 +1,27 @@
+.containera {
+  position: relative;
+  height: 350px;
+  width:439px;
+  margin:auto;
+}
+.myC {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.myB {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.cir {
+  transition: 3s;
+  transform: translateY(-148.5px) translateX(132.5px) !important;
+}
+
+.he {
+  color: red !important;
+}
